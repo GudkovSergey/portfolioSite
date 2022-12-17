@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  //border: 1px solid red;
+}
+.home_myPhoto{
+  //border: 1px solid red;
+  margin-left: 170px;
+  margin-top: 80px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+@keyframes move {
+  from{
+    opacity: 0;
+    margin-left: -500px;
+  }
+  to{
+    opacity: 1;
+    margin-bottom: 0;
+  }
+
+}
+
+
+.animation{
+animation-name: move;
+  animation-duration: 2s;
+}
+.home_myPhoto img{
+  min-width:800px;
+
+
+
+}
+.home_container__logotype{
+  //border: 1px solid red;
+  display: flex;
+  margin-top: 100px;
+  margin-right: 200px;
+  align-self: center;
+
+
+}
+.home_container img{
+  width: 50%;
+
+}
+.home_name{
+
+
+}
+.home_lastName__h1 {
+  position: relative;
+  font-size: 120px;
+  font-weight:normal;
+  color: #FFFFFF;
+
+}
+.home_firstName__h1{
+
+  //border: 1px solid red;
+  position: absolute;
+  font-size: 120px;
+  font-weight:normal;
+  color: #FFFFFF;
+  line-height: 50px;
+  margin-left: 200px;
+
+}
+.home_name__h2{
+  position: absolute;
+  margin-top:27px;
+  margin-left: 250px;
+  font-size: 36px;
+  font-weight:lighter;
+  color: #FFFFFF;
+
+
+}
+.line{
+  width: 85px;
+  border-top: 10px solid white;
+  margin-top: 85px;
+}
