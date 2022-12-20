@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Header.module.scss';
-import logo from '../../assets/logoLight.png';
+import logo from '../../assets/logoGold.png';
+import { NavLink } from 'react-router-dom';
 
 const Header = (props: any) => {
     return (
@@ -15,7 +16,7 @@ const Header = (props: any) => {
             <ul className={style.header_menu}>
 
                     <li ><a href="">Home</a></li>
-                    <li ><a href="">About me </a></li>
+                    <li ><NavLink to='/myInfo' >About me</NavLink></li>
                     <li ><a href="">My skills</a></li>
                     <li ><a href="">Project</a></li>
                     <li ><a href="">Contacts</a></li>

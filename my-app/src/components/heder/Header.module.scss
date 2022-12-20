@@ -46,13 +46,15 @@
    transform: scale(1.05,1.05);
  }
  .header_menu a:hover{
-
-  color: aqua;
+  border-bottom: 3px solid gold;
+  //color: aqua;
 
 }
  a {
      text-decoration: none;
      color: #FFFFFF;
+//color: aqua;
+
 
 
 }

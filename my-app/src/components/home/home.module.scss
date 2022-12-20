@@ -1,37 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+
 .home{
   display: flex;
   flex-direction: row;
   justify-content: center;
   //border: 1px solid red;
 }
+.home_logo{
+  display: flex;
+  flex-direction: row;
+}
 .home_myPhoto{
-  //border: 1px solid red;
-  margin-left: 170px;
-  margin-top: 80px;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+ margin-top: 100px;
+  margin-left:100px;
+
+
+}
+.home_myPhoto img{
+
+
+  //clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  //border-top-left-radius: 500px;
+  //border-bottom-right-radius: 100px;
 
 }
 @keyframes move {
   from{
     opacity: 0;
-    margin-left: -500px;
+    margin-top:-300px;
   }
   to{
     opacity: 1;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 
 }
 
 
 .animation{
-animation-name: move;
-  animation-duration: 2s;
+  animation-name: move;
+  animation-duration: 3s;
 }
 .home_myPhoto img{
-  min-width:800px;
+  min-width:750px;
 
 
 
@@ -58,6 +70,7 @@ animation-name: move;
   font-size: 120px;
   font-weight:normal;
   color: #FFFFFF;
+  //color:aqua;
 
 }
 .home_firstName__h1{
@@ -69,7 +82,7 @@ animation-name: move;
   color: #FFFFFF;
   line-height: 50px;
   margin-left: 200px;
-
+  //color:aqua;
 }
 .home_name__h2{
   position: absolute;
@@ -78,7 +91,7 @@ animation-name: move;
   font-size: 36px;
   font-weight:lighter;
   color: #FFFFFF;
-
+//color:aqua;
 
 }
 .line{

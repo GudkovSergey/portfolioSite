@@ -1,0 +1,115 @@
+
+//@keyframes move {
+//  from{
+//    opacity: 0;
+//    margin-top: -500px;
+//  }
+//  to{
+//    opacity: 1;
+//    margin-bottom: 0;
+//  }
+//
+//}
+//
+//
+//.animation{
+//  animation-name: move;
+//  animation-duration: 2s;
+//}
+
+.myInfo_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.myInfo_avatar img{
+  margin-top: 60px;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+}
+.myInfo_title{
+margin-top: 30px;
+}
+.myInfo_title h1{
+font-size: 48px;
+}
+.myInfo_title h2{
+   margin-top: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+.myInfo__line{
+  margin-top: 20px;
+  border-bottom: 5px solid red;
+}
+.myInfo_aboutMe_container{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  //border: 1px solid red;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+.myInfo_aboutMe{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+
+}
+
+.myInfo_aboutMe_title{
+
+ text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+.myInfo_line{
+  align-self: center;
+  width: 200px;
+  margin-top: 20px;
+  border-top: 3px solid red;
+
+
+}
+.myInfo_aboutMe_content{
+  margin-top: 20px;
+  font-size: 24px;
+  align-self: center;
+  width: 50%;
+  text-align: center;
+}
+
+.myInfo_personal{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+
+
+}
+.myInfo_personal_title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+
+}
+.myInfo_personal_line{
+  align-self: center;
+  width: 200px;
+  margin-top: 20px;
+  border-top: 3px solid red;
+}
+.myInfo_personal_content{
+  margin-top: 20px;
+  font-size: 24px;
+  align-self: center;
+  width: 50%;
+  text-align: center;
+}
