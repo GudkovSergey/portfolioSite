@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Header.module.scss';
 import logo from '../../assets/logoGold.png';
-import { NavLink } from 'react-router-dom';
+import {Link, NavLink } from 'react-router-dom';
 
 const Header = (props: any) => {
     return (
@@ -15,8 +15,8 @@ const Header = (props: any) => {
 
             <ul className={style.header_menu}>
 
-                    <li ><a href="">Home</a></li>
-                    <li ><NavLink to='/myInfo' >About me</NavLink></li>
+                <li> <NavLink to="#home">Home</NavLink></li>
+                <li ><a href="#about">About me</a></li>
                     <li ><a href="">My skills</a></li>
                     <li ><a href="">Project</a></li>
                     <li ><a href="">Contacts</a></li>

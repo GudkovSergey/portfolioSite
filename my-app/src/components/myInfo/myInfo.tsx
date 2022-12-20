@@ -4,7 +4,7 @@ import avatar from "../../assets/avatar.png";
 import cn from 'classnames';
 
 
-const myInfo =()=>{
+const MyInfo =()=>{
     return(
         <div className={cn(style.myInfo_container, style.animation)}>
 
@@ -40,4 +40,4 @@ const myInfo =()=>{
         </div>
     )
 }
-export default myInfo;
+export default MyInfo;

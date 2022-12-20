@@ -3,7 +3,7 @@ import MyInfo from "./myInfo";
 
 const MyInfoContainer = (props:any)=>{
     return(
-        <MyInfo />
+        <MyInfo {...props}/>
     )
 }
 export default MyInfoContainer;
